@@ -14,7 +14,7 @@ export default (input_value) => {
     const advice_to_try = `Let\'s try again, ${name}`;
     let count = 0;
     for (let i = 0; count < 3; i += 1) {
-        let random_number = Math.floor(Math.random() * 10);
+        let random_number = Math.floor(Math.random() * 11);
         const answer = readlineSync.question(`${random_number}\n`);
         if (random_number % 2 === 0 && answer === 'yes') {
             console.log(`${correct}`);
