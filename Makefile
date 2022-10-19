@@ -12,6 +12,8 @@ lint:
 	npx eslint .	
 
 test:
-	npm test	
+	npm test
 
+make lint:
+	npx eslint
 .PHONY: test	
