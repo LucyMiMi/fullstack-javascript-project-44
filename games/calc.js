@@ -6,30 +6,26 @@ export default (input_value) => {
     const definition = 'What is the result of the expression?';
     const expression = [];
     const correct_answer = [];
-    let answer = 0;
     
     for (let i = 0; i < 3; i +=1) {
-        const num_first = randomNumber(1, 30);
-        const num_two = randomNumber(1, 30);
+        const num_first = randomNumber(1, 20);
+        const num_two = randomNumber(1, 20);
         const operator = random_operator();
         if (operator === '+') {
-           answer =  num_first + num_two;
-           const string_expression = `${num_first} ${operator} ${num_two}`
-           expression.push(string_expression);
+           const answer =  num_first + num_two;
+           expression.push(String(`${num_first} ${operator} ${num_two}`));
            correct_answer.push(String(answer));
         }
         if (operator === '-') {
-            answer =  num_first - num_two;
-            const string_expression = `${num_first} ${operator} ${num_two}`
-            expression.push(string_expression);
+            const answer =  num_first - num_two;
+            expression.push(String(`${num_first} ${operator} ${num_two}`));
             correct_answer.push(String(answer));
         }
         if (operator === '*') {
-            answer =  num_first * num_two;
-            const string_expression = `${num_first} ${operator} ${num_two}`
-            expression.push(string_expression);
+            const answer =  num_first * num_two;
+            expression.push(String(`${num_first} ${operator} ${num_two}`));
             correct_answer.push(String(answer));
-         }      
+         }
     }
     game_base(definition, expression, correct_answer);
 };
