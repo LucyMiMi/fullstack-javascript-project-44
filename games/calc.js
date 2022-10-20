@@ -8,7 +8,7 @@ export default (input_value) => {
     const correct_answer = [];
     let answer = 0;
     
-    for(let i = 0; i < 3; i +=1) {
+    for (let i = 0; i < 3; i +=1) {
         let num_first = randomNumber(1, 30);
         let num_two = randomNumber(1, 30);
         let operator = random_operator();
