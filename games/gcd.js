@@ -13,12 +13,11 @@ export default (input_value) => {
     const expression = [];
     const correct_answer = [];
 
-    for (let i = 0; i < 3; i +=1) {
-        let num_first = randomNumber(1, 30);
-        let num_two = randomNumber(1, 30);       
+    for (let i = 0; i < 3; i += 1) {
+        const num_first = randomNumber(1, 30);
+        const num_two = randomNumber(1, 30);       
         const answer = nod(num_first, num_two);
-        const string_expression = String(`${num_first} ${num_two}`);
-        expression.push(string_expression);
+        expression.push(String(`${num_first} ${num_two}`));
         correct_answer.push(String(`${answer}`));
     }
     

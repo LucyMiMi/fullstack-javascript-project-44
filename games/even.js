@@ -9,9 +9,9 @@ export default () => {
     const expression = [];
     const correct_answer = [];
     for (let i = 0; i < 3; i +=1) {
-        let num = randomNumber(1, 50);
+        const num = randomNumber(1, 50);
         expression.push(num);
-        let answer = num % 2 === 0 ? `${answer_yes}` : `${answer_no}`;
+        const answer = num % 2 === 0 ? `${answer_yes}` : `${answer_no}`;
         correct_answer.push(answer);
     }
     game_base(definition, expression, correct_answer);

@@ -9,9 +9,9 @@ export default (input_value) => {
     let answer = 0;
     
     for (let i = 0; i < 3; i +=1) {
-        let num_first = randomNumber(1, 30);
-        let num_two = randomNumber(1, 30);
-        let operator = random_operator();
+        const num_first = randomNumber(1, 30);
+        const num_two = randomNumber(1, 30);
+        const operator = random_operator();
         if (operator === '+') {
            answer =  num_first + num_two;
            const string_expression = `${num_first} ${operator} ${num_two}`
