@@ -1,8 +1,8 @@
 import readlineSync from 'readline-sync';
     
-    export default (offer, expression, correct_answer) => {       
+    export default (definition, expression, correct_answer) => {       
         const name = readlineSync.question(`May I have your name? `);
-        console.log(`Hello, ${name} \n ${offer}`);
+        console.log(`Hello, ${name} \n ${definition}`);
 
         const correct_answer_message = 'Correct!';
         const grats = `Congratulations,  ${name}`;

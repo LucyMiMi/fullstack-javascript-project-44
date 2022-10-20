@@ -2,7 +2,7 @@ import game_base from '../src/index.js';
 import randomNumber from '../util/randomNumber.js';
 
 export default () => {
-    const offer = 'Answer "yes" if the number is even, otherwise answer "no".'; 
+    const definition = 'Answer "yes" if the number is even, otherwise answer "no".'; 
     const answer_yes = 'yes';   
     const answer_no = 'no';
        
@@ -14,5 +14,5 @@ export default () => {
         let answer = num % 2 === 0 ? `${answer_yes}` : `${answer_no}`;
         correct_answer.push(answer);
     }
-    game_base(offer, expression, correct_answer);
+    game_base(definition, expression, correct_answer);
 };
