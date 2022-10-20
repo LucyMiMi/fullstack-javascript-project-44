@@ -1,6 +1,6 @@
 import game_base from '../src/index.js';
 import randomNumber from '../util/randomNumber.js';
-import random_operator from '../util/random_operator.js';
+import random_operator from '../util/randomOperator.js';
 
 export default (input_value) => {
     const definition = 'What is the result of the expression?';
