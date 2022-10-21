@@ -11,7 +11,7 @@ import readlineSync from 'readline-sync';
                 const answer = readlineSync.question(`Your answer: `);
                 if (answer !== correct_answer[round]) {
                     console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correct_answer[round]}'.`);
-                    console.log(`Let's try again, ${name}!`);
+                    console.log(`Let\'s try again, ${name}!`);
                     break;
                 }
                 console.log(`${correct_answer_message}`);

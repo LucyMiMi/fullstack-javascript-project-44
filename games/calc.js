@@ -1,7 +1,7 @@
 import gameBase from '../src/index.js';
 import randomizeNumber from '../util/randomNumber.js';
 import randomizeOperator from '../util/randomOperator.js';
-export default (input_value) => {
+export default () => {
     const definition = 'What is the result of the expression?';
     const expression = [];
     const correct_answer = [];

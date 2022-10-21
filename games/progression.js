@@ -1,6 +1,6 @@
 import progressionSet from '../util/progressionSet.js';
 import gameBase from '../src/index.js';
-export default (input_value) => {
+export default () => {
     const definition = 'What number is missing in the progression?';
     const expression = [];
     const correct_answer = [];

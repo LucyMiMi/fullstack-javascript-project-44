@@ -1,7 +1,7 @@
 import gameBase from '../src/index.js';
 import randomizeNumber from '../util/randomNumber.js';
 import {nod} from '../util/nod.js';
-export default (input_value) => {
+export default () => {
     const definition = 'Find the greatest common divisor of given numbers.';
     const expression = [];
     const correct_answer = [];
