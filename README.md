@@ -9,11 +9,9 @@
     background-color: #0C212B;
     height: 1px;
 >
-<<<<<<< HEAD
+
 <h1 align="center">Welcome to the Brain Games!</h1>
-=======
-<h2 align="center">Welcome to the Brain Games!</h2>
->>>>>>> ed2795db8da03f60d921b44d8a99ac1dadf468a5
+
 <hr border: none;
     background-color: #0C212B;
     height: 1px;
