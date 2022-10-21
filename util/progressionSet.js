@@ -1,5 +1,4 @@
 import randomizeNumber from './randomNumber.js';
-
 export default () => {
     const set_of_number = [];
     let number = 0;
@@ -7,7 +6,6 @@ export default () => {
     for (let i = 0; i < randomizeNumber(7,15); i += 1) {
         number += step_progression;
         set_of_number.push(number);
-        }     
-
+        }
     return set_of_number;
 };

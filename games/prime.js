@@ -1,8 +1,7 @@
 import gameBase from '../src/index.js';
 import randomizeNumber from '../util/randomNumber.js';
 import isPrime from '../util/isPrime.js';
-
-export default (input_value) => {   
+export default (input_value) => {
     const definition = 'Answer "yes" if given number is prime. Otherwise answer "no".';
     const answer_yes = 'yes';
     const answer_no = 'no';

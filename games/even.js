@@ -1,6 +1,5 @@
 import gameBase from '../src/index.js';
 import randomizeNumber from '../util/randomNumber.js';
-
 export default () => {
     const definition = 'Answer "yes" if the number is even, otherwise answer "no".';
     const answer_yes = 'yes';
