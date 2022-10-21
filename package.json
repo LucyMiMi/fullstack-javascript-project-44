@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "description": "mind games",
-  "main": "index.js",
+  "main": "./bin/brain-games.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
