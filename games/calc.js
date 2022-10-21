@@ -11,8 +11,8 @@ export default (input_value) => {
         const operator = randomizeOperator();
         let answer = 0;
         if (operator === '+') answer =  num_first + num_two; 
-        if (operator === '-') answer =  num_first - num_two;
-        if (operator === '*') answer =  num_first * num_two;
+        else if (operator === '-') answer =  num_first - num_two;
+        else if (operator === '*') answer =  num_first * num_two;
         expression.push(`${num_first} ${operator} ${num_two}`);
         correct_answer.push(String(answer));    
     }
