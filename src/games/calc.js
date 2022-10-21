@@ -2,12 +2,12 @@ import { index, randomizeNumber } from "../index.js";
 export default () => {
   const randomizeOperator = () => {
     const operatorСol = ["+", "-", "*"];
-    let randomizeOperator = Math.floor(Math.random() * operator_col.length);
-    return operatorCol[randomizeOperator];
+    let randomizeOperator = Math.floor(Math.random() * operatorСol.length);
+    return operatorСol[randomizeOperator];
   };
   const definition = "What is the result of the expression?";
   const expression = [];
-  const correct_answer = [];
+  const correctAnswer = [];
   for (let index = 0; index < 3; index += 1) {
     const numFirst = randomizeNumber(1, 20);
     const numTwo = randomizeNumber(1, 20);
@@ -19,5 +19,5 @@ export default () => {
     expression.push(`${numFirst} ${operator} ${numTwo}`);
     correct_answer.push(String(answer));
   }
-  return index(definition, expression, correct_answer);
+  return index(definition, expression, correctAnswer);
 };
