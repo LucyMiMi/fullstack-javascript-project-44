@@ -5,7 +5,7 @@
 
 
                 
-Welcome to the Brain Games!
+Welcome to the Brain Games!!!
 
 "Brain-Games" is my first project from Hexlet.
 Terminal game that consists of different maths tasks
