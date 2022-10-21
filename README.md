@@ -52,5 +52,5 @@
     background-color: #0C212B;
     height: 1px;
 >
-<h3 align="center">Requirement</h3>requirements
+<h3 align="center">Requirement</h3>
 <p>nvm 16.17.1v</p>
