@@ -8,10 +8,10 @@ export default (input_value) => {
     for (let index = 0; index < 3; index += 1) {
         let arithmetic_progression = progressionSet();
         const value_place = String(arithmetic_progression[Math.floor(Math.random() * arithmetic_progression.length)]);
-        correct_answer.push(value_place);
-        const string_set_space = arithmetic_progression.join(' ');
+        correct_answer.push(`${value_place}`);
+        const string_set_space = arithmetic_progression.join(' ').trim();
         const p_set_points = string_set_space.replace(`${value_place}`, `${points}`);
-        expression.push(p_set_points);
+        expression.push(`${p_set_points}`);
     }
     return gameBase(definition, expression, correct_answer);
 };

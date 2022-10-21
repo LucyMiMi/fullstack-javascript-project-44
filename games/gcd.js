@@ -9,7 +9,7 @@ export default (input_value) => {
         const num_first = randomizeNumber(1, 30);
         const num_two = randomizeNumber(1, 30);
         const answer = nod(num_first, num_two);
-        expression.push(`${num_first} ${num_two}`);
+        expression.push(String(`${num_first} ${num_two}`));
         correct_answer.push(String(`${answer}`));
     }
     return gameBase(definition, expression, correct_answer);
