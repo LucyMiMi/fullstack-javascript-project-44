@@ -1,13 +1,13 @@
-import randomNumber from './randomNumber.js';
+import randomizeNumber from './randomNumber.js';
 
 export default () => {
-    const set_of_digits = [];
+    const set_of_number = [];
     let number = 0;
-    const step_number = randomNumber(2,5);
-    for (let i = 0; i < randomNumber(5,10); i += 1) {
-        number += step_number;
+    const step_progression = randomizeNumber(2,5);
+    for (let i = 0; i < randomizeNumber(5,10); i += 1) {
+        number += step_progression;
         set_of_digits.push(number);
         }     
 
-    return set_of_digits;
+    return set_of_number;
 };

@@ -1,5 +1,5 @@
-import game_base from '../src/index.js';
-import randomNumber from '../util/randomNumber.js';
+import gameBase from '../src/index.js';
+import randomizeNumber from '../util/randomNumber.js';
 import nod from '../util/nod.js';
 
 export default (input_value) => {
@@ -9,12 +9,12 @@ export default (input_value) => {
     const correct_answer = [];
 
     for (let index = 0; index < 3; index += 1) {
-        const num_first = randomNumber(1, 30);
-        const num_two = randomNumber(1, 30);
+        const num_first = randomizeNumber(1, 30);
+        const num_two = randomizeNumber(1, 30);
         const answer = nod(num_first, num_two);
         expression.push(String(`${num_first} ${num_two}`));
         correct_answer.push(String(`${answer}`));
     }
     
-    game_base(definition, expression, correct_answer);
+    gameBase(definition, expression, correct_answer);
 };

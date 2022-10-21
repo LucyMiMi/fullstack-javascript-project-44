@@ -1,6 +1,6 @@
-import game_base from '../src/index.js';
-import randomNumber from '../util/randomNumber.js';
-import random_operator from '../util/randomOperator.js';
+import gameBase from '../src/index.js';
+import randomizeNumber from '../util/randomNumber.js';
+import randomizeOperator from '../util/randomOperator.js';
 
 export default (input_value) => {
     const definition = 'What is the result of the expression?';
@@ -8,9 +8,9 @@ export default (input_value) => {
     const correct_answer = [];
     
     for (let index = 0; index < 3; index += 1) {
-        const num_first = randomNumber(1, 20);
-        const num_two = randomNumber(1, 20);
-        const operator = random_operator();
+        const num_first = randomizeNumber(1, 20);
+        const num_two = randomizeNumber(1, 20);
+        const operator = randomizeOperator();
         if (operator === '+') {
            const answer =  num_first + num_two;
            expression.push(String(`${num_first} ${operator} ${num_two}`));
@@ -27,5 +27,5 @@ export default (input_value) => {
             correct_answer.push(String(answer));
          }
     }
-    game_base(definition, expression, correct_answer);
+    gameBase(definition, expression, correct_answer);
 };
