@@ -4,7 +4,7 @@ import readlineSync from 'readline-sync';
         console.log(`Hello, ${name}`);
         console.log(`${definition}`);
         const correct_answer_message = 'Correct!';
-        const grats = `Congratulations, ${name}`;
+        const grats = `Congratulations, ${name}!`;
         for (let round = 0; round < 3; round += 1) {
                 const round_question = expression[round];
                 console.log(`Question: ${round_question}`)
