@@ -4,8 +4,7 @@ import randomNumber from '../util/randomNumber.js';
 export default () => {
     const definition = 'Answer "yes" if the number is even, otherwise answer "no".';
     const answer_yes = 'yes';
-    const answer_no = 'no';
-       
+    const answer_no = 'no';      
     const expression = [];
     const correct_answer = [];
     for (let index = 0; index < 3; index += 1) {
