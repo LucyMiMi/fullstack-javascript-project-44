@@ -1,4 +1,4 @@
-import { index, randomizeNumber } from "../index.js";
+import { index, randomizeNumber } from '../index.js';
 export default () => {
   const nod = (numOne, numTwo) => {
     if (numTwo !== 0) {
@@ -7,7 +7,7 @@ export default () => {
     }
     return numOne;
   };
-  const definition = "Find the greatest common divisor of given numbers.";
+  const definition = 'Find the greatest common divisor of given numbers.';
   const expression = [];
   const correctAnswer = [];
   for (let index = 0; index < 3; index += 1) {

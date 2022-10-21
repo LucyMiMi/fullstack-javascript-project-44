@@ -1,4 +1,4 @@
-import { index, randomizeNumber } from "../index.js";
+import { index, randomizeNumber } from '../index.js';
 export default () => {
   const randomizeOperator = () => {
     const operatorСol = ["+", "-", "*"];

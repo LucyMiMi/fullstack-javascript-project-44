@@ -9,8 +9,8 @@ export default () => {
   };
   const definition =
     'Answer "yes" if given number is prime. Otherwise answer "no".';
-  const answerYes = "yes";
-  const answerNo = "no";
+  const answerYes = 'yes';
+  const answerNo = 'no';
   const expression = [];
   const correctAnswer = [];
   for (let index = 0; index < 3; index += 1) {

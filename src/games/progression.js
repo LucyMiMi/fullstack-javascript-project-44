@@ -10,7 +10,7 @@ export default () => {
     }
     return setOfNumber;
   };
-  const definition = "What number is missing in the progression?";
+  const definition = 'What number is missing in the progression?';
   const expression = [];
   const correctAnswer = [];
   const points = "..";
