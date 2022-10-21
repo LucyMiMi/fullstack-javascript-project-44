@@ -16,5 +16,5 @@ export default (input_value) => {
         expression.push(`${num_first} ${operator} ${num_two}`);
         correct_answer.push(String(answer));    
     }
-    gameBase(definition, expression, correct_answer);
+    return gameBase(definition, expression, correct_answer);
 };

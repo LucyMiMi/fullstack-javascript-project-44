@@ -12,5 +12,5 @@ export default () => {
         const answer = num % 2 === 0 ? `${answer_yes}` : `${answer_no}`;
         correct_answer.push(answer);
     }
-    gameBase(definition, expression, correct_answer);
+    return gameBase(definition, expression, correct_answer);
 };

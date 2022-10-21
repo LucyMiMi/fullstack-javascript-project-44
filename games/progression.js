@@ -13,5 +13,5 @@ export default (input_value) => {
         const p_set_points = string_set_space.replace(`${value_place}`, `${points}`);
         expression.push(p_set_points);
     }
-    gameBase(definition, expression, correct_answer);
+    return gameBase(definition, expression, correct_answer);
 };

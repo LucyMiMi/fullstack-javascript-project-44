@@ -13,5 +13,5 @@ export default (input_value) => {
         const answer = isPrime(num) ? `${answer_yes}` : `${answer_no}`;
         correct_answer.push(answer);
     }
-    gameBase(definition, expression, correct_answer);
+    return gameBase(definition, expression, correct_answer);
 };
