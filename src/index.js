@@ -2,7 +2,8 @@ import readlineSync from 'readline-sync';
 
     export default (definition, expression, correct_answer) => {
         const name = readlineSync.question(`May I have your name? `);
-        console.log(`Hello, ${name}\n${definition}`);
+        console.log(`Hello, ${name}`);
+        console.log(`${definition}`);
 
         const correct_answer_message = 'Correct!';
         const grats = `Congratulations, ${name}`;
@@ -12,7 +13,8 @@ import readlineSync from 'readline-sync';
                 console.log(`Question: ${round_question}`)
                 const answer = readlineSync.question(`Your answer: `);
                 if (answer !== correct_answer[round]) {
-                    console.log(`'${answer}' is wrong $;(. Correct answer was '${correct_answer[round]}' \n Let's try again, ${name}`);
+                    console.log(`'${answer}' is wrong $;(. Correct answer was '${correct_answer[round]}'`); 
+                    console.log(`Let's try again, ${name}`);
                     break;
                 }
                 console.log(`${correct_answer_message}`);
