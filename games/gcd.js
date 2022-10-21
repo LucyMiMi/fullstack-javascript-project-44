@@ -8,7 +8,7 @@ export default (input_value) => {
     const expression = [];
     const correct_answer = [];
 
-    for (let i = 0; i < 3; i += 1) {
+    for (let index = 0; index < 3; index += 1) {
         const num_first = randomNumber(1, 30);
         const num_two = randomNumber(1, 30);
         const answer = nod(num_first, num_two);

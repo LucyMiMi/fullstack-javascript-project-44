@@ -4,4 +4,4 @@ const nod = (num_first, num_two) => {
       return nod(num_two, num_temp);
     }
     return num_first;
-}    
+};    
