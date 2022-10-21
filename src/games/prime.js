@@ -1,4 +1,4 @@
-import { index, randomizeNumber } from '../src/index.js';
+import { index, randomizeNumber } from '../index.js';
 export default () => {
     const isPrime = (num) => {
         if(num < 2) return false;

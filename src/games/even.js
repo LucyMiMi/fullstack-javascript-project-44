@@ -1,4 +1,4 @@
-import { index, randomizeNumber } from '../src/index.js';
+import { index, randomizeNumber } from '../index.js';
 export default () => {
     const definition = 'Answer "yes" if the number is even, otherwise answer "no".';
     const answer_yes = 'yes';

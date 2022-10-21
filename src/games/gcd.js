@@ -1,4 +1,4 @@
-import { index, randomizeNumber } from '../src/index.js';
+import { index, randomizeNumber } from '../index.js';
 export default () => {
     const nod = (num_one, num_two) => {
         if (num_two !== 0) {
