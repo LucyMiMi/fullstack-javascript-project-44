@@ -1,4 +1,5 @@
 import { index, randomizeNumber } from '../index.js';
+
 export default () => {
   const nod = (numOne, numTwo) => {
     if (numTwo !== 0) {
@@ -10,7 +11,7 @@ export default () => {
   const definition = 'Find the greatest common divisor of given numbers.';
   const expression = [];
   const correctAnswer = [];
-  for (let index = 0; index < 3; index += 1) {
+  for (let ind = 0; ind < 3; ind += 1) {
     const numFirst = randomizeNumber(1, 30);
     const numTwo = randomizeNumber(1, 30);
     const answer = nod(numFirst, numTwo);

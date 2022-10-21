@@ -1,4 +1,5 @@
-import { index, randomizeNumber } from "../index.js";
+import { index, randomizeNumber } from '../index.js';
+
 export default () => {
   const progressionSet = () => {
     const setOfNumber = [];
@@ -13,20 +14,13 @@ export default () => {
   const definition = 'What number is missing in the progression?';
   const expression = [];
   const correctAnswer = [];
-  const points = "..";
-  for (let index = 0; index < 3; index += 1) {
-    let arithmeticProgression = progressionSet();
-    const valuePlace = String(
-      arithmeticProgression[
-        Math.floor(Math.random() * arithmeticProgression.length)
-      ]
-    );
+  const points = '..';
+  for (let ind = 0; ind < 3; ind += 1) {
+    const arithmeticProgression = progressionSet();
+    const valuePlace = String(arithmeticProgression[Math.floor(Math.random() * arithmeticProgression.length)]);
     correctAnswer.push(`${valuePlace}`);
     const stringSetSpace = arithmeticProgression.join(" ").trim();
-    const pSetPoints = stringSetSpace.replace(
-      `${valuePlace}`,
-      `${points}`
-    );
+    const pSetPoints = stringSetSpace.replace(`${valuePlace}`,`${points}`);
     expression.push(`${pSetPoints}`);
   }
   return index(definition, expression, correctAnswer);

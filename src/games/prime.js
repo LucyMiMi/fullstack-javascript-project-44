@@ -1,4 +1,5 @@
-import { index, randomizeNumber } from "../index.js";
+import { index, randomizeNumber } from '../index.js';
+
 export default () => {
   const isPrime = (num) => {
     if (num < 2) return false;
@@ -7,13 +8,12 @@ export default () => {
     }
     return true;
   };
-  const definition =
-    'Answer "yes" if given number is prime. Otherwise answer "no".';
+  const definition = 'Answer "yes" if given number is prime. Otherwise answer "no".';
   const answerYes = 'yes';
   const answerNo = 'no';
   const expression = [];
   const correctAnswer = [];
-  for (let index = 0; index < 3; index += 1) {
+  for (let ind = 0; ind < 3; ind += 1) {
     const num = randomizeNumber(1, 50);
     expression.push(num);
     const answer = isPrime(num) ? `${answerYes}` : `${answerNo}`;
