@@ -11,21 +11,13 @@ export default (input_value) => {
         const num_first = randomizeNumber(1, 20);
         const num_two = randomizeNumber(1, 20);
         const operator = randomizeOperator();
-        if (operator === '+') {
-           const answer =  num_first + num_two;
-           expression.push(String(`${num_first} ${operator} ${num_two}`));
-           correct_answer.push(String(answer));
-        }
-        if (operator === '-') {
-            const answer =  num_first - num_two;
-            expression.push(String(`${num_first} ${operator} ${num_two}`));
-            correct_answer.push(String(answer));
-        }
-        if (operator === '*') {
-            const answer =  num_first * num_two;
-            expression.push(String(`${num_first} ${operator} ${num_two}`));
-            correct_answer.push(String(answer));
-         }
+        let answer = 0;
+        if (operator === '+') answer =  num_first + num_two; 
+        if (operator === '-') answer =  num_first - num_two;
+        if (operator === '*') answer =  num_first * num_two;
+        expression.push(String(`${num_first} ${operator} ${num_two}`));
+        correct_answer.push(String(answer));
+         
     }
     gameBase(definition, expression, correct_answer);
 };
