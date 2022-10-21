@@ -16,11 +16,12 @@ export default () => {
   const correctAnswer = [];
   const points = '..';
   for (let ind = 0; ind < 3; ind += 1) {
-    const arithmeticProgression = progressionSet();
-    const valuePlace = String(arithmeticProgression[Math.floor(Math.random() * arithmeticProgression.length)]);
+    const aProgression = progressionSet();
+    const randomVal = aProgression[Math.floor(Math.random() * aProgression.length)];
+    const valuePlace = String(randomVal);
     correctAnswer.push(`${valuePlace}`);
-    const stringSetSpace = arithmeticProgression.join(" ").trim();
-    const pSetPoints = stringSetSpace.replace(`${valuePlace}`,`${points}`);
+    const stringSetSpace = aProgression.join(' ').trim();
+    const pSetPoints = stringSetSpace.replace(`${valuePlace}`, `${points}`);
     expression.push(`${pSetPoints}`);
   }
   return index(definition, expression, correctAnswer);
