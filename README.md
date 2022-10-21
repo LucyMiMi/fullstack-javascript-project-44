@@ -11,7 +11,7 @@ Welcome to the Brain Games!!!
 Terminal game that consists of different maths tasks
 
 1.brain-even
-You have to answer if shown number is even or not.</p>
+You have to answer if shown number is even or not.
 https://asciinema.org/a/mUh5bEuCsmHEKXKu9igxZTZ74"
 
 2.brain-calc
