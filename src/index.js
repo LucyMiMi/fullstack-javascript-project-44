@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-    
+
     export default (definition, expression, correct_answer) => {       
         const name = readlineSync.question(`May I have your name? `);
         console.log(`Hello, ${name}\n${definition}`);
