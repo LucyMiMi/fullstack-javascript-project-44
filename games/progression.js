@@ -1,6 +1,15 @@
-import progressionSet from '../util/progressionSet.js';
-import gameBase from '../src/index.js';
+import { index, randomizeNumber } from '../src/index.js';
 export default () => {
+    const progressionSet = () => {
+        const set_of_number = [];
+        let number = 0;
+        const step_progression = randomizeNumber(2,10);
+        for (let i = 0; i < randomizeNumber(10,15); i += 1) {
+            number += step_progression;
+            set_of_number.push(number);
+            }
+        return set_of_number;
+    }
     const definition = 'What number is missing in the progression?';
     const expression = [];
     const correct_answer = [];
@@ -13,5 +22,5 @@ export default () => {
         const p_set_points = string_set_space.replace(`${value_place}`, `${points}`);
         expression.push(`${p_set_points}`);
     }
-    return gameBase(definition, expression, correct_answer);
+    return index(definition, expression, correct_answer);
 };

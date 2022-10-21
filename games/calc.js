@@ -1,7 +1,10 @@
-import gameBase from '../src/index.js';
-import randomizeNumber from '../util/randomNumber.js';
-import randomizeOperator from '../util/randomOperator.js';
+import { index, randomizeNumber } from '../src/index.js';
 export default () => {
+    const randomizeOperator = () => {
+        const operator_col = ['+', '-', '*'];
+        let randomize_operator = Math.floor(Math.random() * operator_col.length)
+        return operator_col[randomize_operator];
+    }
     const definition = 'What is the result of the expression?';
     const expression = [];
     const correct_answer = [];
@@ -16,5 +19,5 @@ export default () => {
         expression.push(String(`${num_first} ${operator} ${num_two}`));
         correct_answer.push(String(answer));    
     }
-    return gameBase(definition, expression, correct_answer);
+    return index(definition, expression, correct_answer);
 };

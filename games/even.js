@@ -1,5 +1,4 @@
-import gameBase from '../src/index.js';
-import randomizeNumber from '../util/randomNumber.js';
+import { index, randomizeNumber } from '../src/index.js';
 export default () => {
     const definition = 'Answer "yes" if the number is even, otherwise answer "no".';
     const answer_yes = 'yes';
@@ -12,5 +11,5 @@ export default () => {
         const answer = num % 2 === 0 ? `${answer_yes}` : `${answer_no}`;
         correct_answer.push(answer);
     }
-    return gameBase(definition, expression, correct_answer);
+    return index(definition, expression, correct_answer);
 };

@@ -1,5 +1,7 @@
 import readlineSync from 'readline-sync';
-    export default (definition, expression, correct_answer) => {
+    const randomizeNumber = (min, max) => Math.floor(min + Math.random() * (max + 1 - min));
+    const index = (definition, expression, correct_answer) => {
+        console.log('Welcome to the Brain Games!');
         const name = readlineSync.question(`May I have your name? `);
         console.log(`Hello, ${name}!`);
         console.log(`${definition}`);
@@ -18,3 +20,4 @@ import readlineSync from 'readline-sync';
                 if(round === 2) console.log(`${grats}`);
             }
 };
+export {index,randomizeNumber};
