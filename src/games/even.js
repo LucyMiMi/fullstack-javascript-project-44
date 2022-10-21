@@ -7,7 +7,7 @@ export default () => {
     const correct_answer = [];
     for (let index = 0; index < 3; index += 1) {
         const num = randomizeNumber(1, 50);
-        expression.push(String(num));
+        expression.push(num);
         const answer = num % 2 === 0 ? `${answer_yes}` : `${answer_no}`;
         correct_answer.push(answer);
     }
