@@ -6,7 +6,7 @@ export default () => {
     const stepProgression = randomizeNumber(2, 10);
     for (let i = 0; i < randomizeNumber(10, 15); i += 1) {
       number += stepProgression;
-      set_of_number.push(number);
+      setOfNumber.push(number);
     }
     return setOfNumber;
   };
@@ -22,8 +22,8 @@ export default () => {
       ]
     );
     correctAnswer.push(`${valuePlace}`);
-    const string_set_space = arithmeticProgression.join(" ").trim();
-    const pSetPoints = string_set_space.replace(
+    const stringSetSpace = arithmeticProgression.join(" ").trim();
+    const pSetPoints = stringSetSpace.replace(
       `${valuePlace}`,
       `${points}`
     );

@@ -17,7 +17,7 @@ export default () => {
     else if (operator === "-") answer = numFirst - numTwo;
     else if (operator === "*") answer = numFirst * numTwo;
     expression.push(`${numFirst} ${operator} ${numTwo}`);
-    correct_answer.push(String(answer));
+    correctAnswer.push(String(answer));
   }
   return index(definition, expression, correctAnswer);
 };
