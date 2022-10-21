@@ -7,8 +7,9 @@ import readlineSync from 'readline-sync';
         const correct_answer_message = 'Correct!';
         const grats = `Congratulations,  ${name}`;
 
-        for (let round = 0; round < 3; round += 1) {                
-                const answer = readlineSync.question(`Question: ${expression[round]}\nYour answer: `);              //console.log(round_max);
+        for (let round = 0; round < 3; round += 1) {  
+                const round_question = expression[round];           
+                const answer = readlineSync.question(`Question: ${round_question}'\nYour answer: `);              //console.log(round_max);
                 if (answer !== correct_answer[round]) {
                     console.log(`'${answer}' is wrong $;(. Correct answer was '${correct_answer[round]}' \n Let's try again, ${name}`);
                     break;         
