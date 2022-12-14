@@ -37,8 +37,4 @@
     </li>
 </ol>
 <hr>
-<h3 align="center">Install</h3>
-<p>$ sudo npm install -g @hexlet/code</p>
-<hr>
-<h3 align="center">Requirement</h3>
-<p>nvm 16.17.1v</p>
+
