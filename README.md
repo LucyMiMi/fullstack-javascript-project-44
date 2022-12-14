@@ -13,7 +13,7 @@
 <hr>
 <p align="center">"Brain-Games" is my first project from Hexlet.</p>
 <p align="center">Terminal game that consists of different maths tasks</p>
-<ul>
+<ul list-style-type = none>
     <li><h3 align="center">brain-even</h3>
         <p>You have to answer if shown number is even or not.</p>
         <p align="center"><a>https://asciinema.org/a/mUh5bEuCsmHEKXKu9igxZTZ74"</a></p>
