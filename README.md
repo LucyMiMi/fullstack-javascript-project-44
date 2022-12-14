@@ -13,17 +13,15 @@
 <hr>
 <p align="center">"Brain-Games" is my first project from Hexlet.</p>
 <p align="center">Terminal game that consists of different maths tasks</p>
-<<<<<<< HEAD
+
 <ul list-style-type = none>
     <li><h3 align="center">brain-even</h3>
         <p>You have to answer if shown number is even or not.</p>
         <p align="center"><a>https://asciinema.org/a/mUh5bEuCsmHEKXKu9igxZTZ74"</a></p>
-=======
 <ol>
     <li><h3 align="center">Brain-even</h3>
         <p align="center">You have to answer if shown number is even or not.</p>
         <p align="center"><a href=https://asciinema.org/a/mUh5bEuCsmHEKXKu9igxZTZ74>Demo</a></p>
->>>>>>> 5c82f416617e91e614572742b2af21c1c32ea288
     </li>
     <li><h3 align="center">Brain-calc</h3>
         <p align="center">What is the result of the expression?</p>
