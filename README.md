@@ -17,7 +17,7 @@
 <hr>
 <b align="center">Install</b><br/>
 
-git clone https://github.com/SmokieEyes/fullstack-javascript-project-44.git
+git clone https://github.com/SmokieEyes/fullstack-javascript-project-44.git <br/>
 npm link
 
 <hr>
@@ -26,8 +26,7 @@ npm link
     <li><h3 align="center">Brain-even</h3>
         <p align="center">You have to answer if shown number is even or not.</p>
         <p align="center"><a href=https://asciinema.org/a/mUh5bEuCsmHEKXKu9igxZTZ74>Demo</a></p>
-       
-    </li>
+       </li>
     <li><h3 align="center">Brain-calc</h3>
         <p align="center">What is the result of the expression?</p>
         <p align="center"><a href=https://asciinema.org/a/u1PeSXLD4B3S7RkHQuB82naIo>Demo</a></p>
@@ -45,6 +44,7 @@ npm link
         <p align="center"><a href=https://asciinema.org/a/0JuJYxHxgCGAd7UviigVvdHMQ>Demo</a></p>
     </li>
 </ol>
+
 <hr>
 <b align="center">Запуск игр:</b>
 <h4>make brain-games</h4>
