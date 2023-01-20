@@ -37,10 +37,14 @@
         <p align="center"><a href=https://asciinema.org/a/0JuJYxHxgCGAd7UviigVvdHMQ>Demo</a></p>
     </li>
 </ol>
+
 <b align="center">Install</b><br/>
+
 git clone https://github.com/SmokieEyes/fullstack-javascript-project-44.git
 npm link
+
 <hr>
+
 <b align="center">Запуск игр:</b>
 <h3>make brain-games</h3>
 <h3>make brain-even</h3>
