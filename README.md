@@ -14,6 +14,14 @@
 <p align="center">"Brain-Games" is my first project from Hexlet.</p>
 <p align="center">Terminal game that consists of different maths tasks</p>
 
+<hr>
+<b align="center">Install</b><br/>
+
+git clone https://github.com/SmokieEyes/fullstack-javascript-project-44.git
+npm link
+
+<hr>
+
 <ol>
     <li><h3 align="center">Brain-even</h3>
         <p align="center">You have to answer if shown number is even or not.</p>
@@ -37,20 +45,13 @@
         <p align="center"><a href=https://asciinema.org/a/0JuJYxHxgCGAd7UviigVvdHMQ>Demo</a></p>
     </li>
 </ol>
-
-<b align="center">Install</b><br/>
-
-git clone https://github.com/SmokieEyes/fullstack-javascript-project-44.git
-npm link
-
 <hr>
-
 <b align="center">Запуск игр:</b>
-<h3>make brain-games</h3>
-<h3>make brain-even</h3>
-<h3>make brain-calc</h3>
-<h3>make brain-gcd</h3>
-<h3>make brain-progression</h3>
-<h3>make brain-prime</h3>
+<h4>make brain-games</h4>
+<h4>make brain-even</h4>
+<h4>make brain-calc</h4>
+<h4>make brain-gcd</h4>
+<h4>make brain-progression</h4>
+<h4>make brain-prime</h4>
 <hr>
 
