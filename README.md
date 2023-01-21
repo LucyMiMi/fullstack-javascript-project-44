@@ -2,7 +2,7 @@
  
 [![Actions Status](https://github.com/LucyMiMi/fullstack-javascript-project-44/workflows/hexlet-check/badge.svg)](https://github.com/LucyMiMi/fullstack-javascript-project-44/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/2e4cc5f3d3f53a7b16ce/maintainability)](https://codeclimate.com/github/LucyMiMi/fullstack-javascript-project-44/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/2e4cc5f3d3f53a7b16ce/test_coverage)](https://codeclimate.com/github/LucyMiMi/fullstack-javascript-project-44/test_coverage)
+
 
 
                 
