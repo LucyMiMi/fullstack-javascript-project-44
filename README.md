@@ -25,23 +25,23 @@ npm link
 <ol>
     <li><h3 align="center">Brain-even</h3>
         <p align="center">You have to answer if shown number is even or not.</p>
-        <p align="center"><a href=https://asciinema.org/a/mUh5bEuCsmHEKXKu9igxZTZ74>Demo</a></p>
+        <a href="https://asciinema.org/a/mUh5bEuCsmHEKXKu9igxZTZ74" target="_blank"><img src="https://asciinema.org/a/mUh5bEuCsmHEKXKu9igxZTZ74.svg" /></a>
        </li>
     <li><h3 align="center">Brain-calc</h3>
         <p align="center">What is the result of the expression?</p>
-        <p align="center"><a href=https://asciinema.org/a/u1PeSXLD4B3S7RkHQuB82naIo>Demo</a></p>
+        <a href="https://asciinema.org/a/u1PeSXLD4B3S7RkHQuB82naIo" target="_blank"><img src="https://asciinema.org/a/u1PeSXLD4B3S7RkHQuB82naIo.svg" /></a>
     </li>
     <li><h3 align="center">Brain-gcd</h3>
         <p align="center">Find the greatest common divisor of given numbers.</p>
-        <p align="center"><a href=https://asciinema.org/a/rS6nSR9fJIBJtsKNZxqneeJ8U>Demo</a></p>
+        <a href="https://asciinema.org/a/rS6nSR9fJIBJtsKNZxqneeJ8U" target="_blank"><img src="https://asciinema.org/a/rS6nSR9fJIBJtsKNZxqneeJ8U.svg" /></a>
     </li>
     <li><h3 align="center">Brain-progression</h3>
         <p align="center">What number is missing in the progression?</p>
-        <p align="center"><a href=https://asciinema.org/a/jMsNvn3PXDk1AvwBkLENdUvCF>Demo</a></p>
+        <a href="https://asciinema.org/a/jMsNvn3PXDk1AvwBkLENdUvCF" target="_blank"><img src="https://asciinema.org/a/jMsNvn3PXDk1AvwBkLENdUvCF.svg" /></a>
     </li>
     <li><h3 align="center">Brain-prime</h3>
         <p align="center">Answer "yes" if given number is prime. Otherwise answer "no".</p>
-        <p align="center"><a href=https://asciinema.org/a/0JuJYxHxgCGAd7UviigVvdHMQ>Demo</a></p>
+        <a href="https://asciinema.org/a/0JuJYxHxgCGAd7UviigVvdHMQ" target="_blank"><img src="https://asciinema.org/a/0JuJYxHxgCGAd7UviigVvdHMQ.svg" /></a>
     </li>
 </ol>
 
